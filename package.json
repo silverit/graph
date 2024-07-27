@@ -1,0 +1,35 @@
+{
+  "name": "graph",
+  "version": "0.0.1",
+  "description": "GraphQL Client with Appolo Client",
+  "main": "./dist/index.js",
+  "browser": ".dist/index.js",
+  "react-native": ".dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silverit/graph"
+  },
+  "keywords": [
+    "GraphQL",
+    "Appolo Client"
+  ],
+  "author": "Phuong Vo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silverit/graph/issues"
+  },
+  "homepage": "https://github.com/silverit/graph#readme",
+  "dependencies": {
+    "@apollo/client": "^3.11.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.7",
+    "tsup": "^8.2.3"
+  }
+}
